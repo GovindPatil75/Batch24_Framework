@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-24T09:23:10 IST" name="Suite" finished-at="2024-04-24T09:23:20 IST" duration-ms="9702">
+    <groups>
+    </groups>
+    <test started-at="2024-04-24T09:23:10 IST" name="TestChrome" finished-at="2024-04-24T09:23:20 IST" duration-ms="9702">
+      <class name="com.LoginTest.TestTC_001">
+        <test-method is-config="true" signature="initilizationsetUp()[pri:0, instance:com.LoginTest.TestTC_001@74589991]" started-at="2024-04-24T09:23:09 IST" name="initilizationsetUp" finished-at="2024-04-24T09:23:10 IST" duration-ms="624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizationsetUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.LoginTest.TestTC_001@74589991]" started-at="2024-04-24T09:23:10 IST" name="setUp" finished-at="2024-04-24T09:23:13 IST" duration-ms="3167" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyTC_001()[pri:0, instance:com.LoginTest.TestTC_001@74589991]" started-at="2024-04-24T09:23:13 IST" name="verifyTC_001" finished-at="2024-04-24T09:23:14 IST" duration-ms="383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTC_001 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.LoginTest.TestTC_001@74589991]" started-at="2024-04-24T09:23:14 IST" name="tearDown" finished-at="2024-04-24T09:23:15 IST" duration-ms="873" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.LoginTest.TestTC_001@74589991]" started-at="2024-04-24T09:23:15 IST" name="setUp" finished-at="2024-04-24T09:23:18 IST" duration-ms="2438" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyTC_002()[pri:0, instance:com.LoginTest.TestTC_001@74589991]" started-at="2024-04-24T09:23:18 IST" name="verifyTC_002" finished-at="2024-04-24T09:23:18 IST" duration-ms="325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTC_002 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.LoginTest.TestTC_001@74589991]" started-at="2024-04-24T09:23:19 IST" name="tearDown" finished-at="2024-04-24T09:23:20 IST" duration-ms="819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.LoginTest.TestTC_001 -->
+    </test> <!-- TestChrome -->
+  </suite> <!-- Suite -->
+</testng-results>
