@@ -10,7 +10,7 @@ import com.Utility.Library;
 public class TestTC_008 extends BaseClass{
 	
 	@Test
-	public void verifyTC_004()   {
+	public void verifyTC_008()   {
 		
 		LoginPom login=PageFactory.initElements(driver, LoginPom.class);
 		
