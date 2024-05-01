@@ -23,8 +23,7 @@ public class TestTC_001 extends BaseClass{
 		Library.custom_Sendkeys(login.getPassword(), Password ,"Password");
 		Library.custom_Click(login.getBtnLogin() ,"Login Button");
 		
-		
-		
+			
 	}
 
 	@Test
