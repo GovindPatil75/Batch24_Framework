@@ -13,7 +13,6 @@ public class Test_005 extends BaseClass {
 		
 		LoginPom login=PageFactory.initElements(driver, LoginPom.class);
 		
-		
 		String Username=excel.getStringTestData("LoginTest", 0, 0);
 		String Password=excel.getStringTestData("LoginTest", 0, 1);
 		
