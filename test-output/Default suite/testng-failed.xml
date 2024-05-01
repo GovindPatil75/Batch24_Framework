@@ -5,6 +5,8 @@
     <classes>
       <class name="com.LoginTest.TestTC_001">
         <methods>
+          <include name="verifyTC_002"/>
+          <include name="initilizationsetUp"/>
           <include name="setUp"/>
           <include name="tearDown"/>
           <include name="verifyTC_001"/>
