@@ -7,7 +7,8 @@
   <test thread-count="5" name="TestChrome">
   <parameter name="BrowserName" value="Chrome"></parameter>
     <classes>
-      <class name="com.LoginTest.TestTC_001"/>
+	<!--><class name="com.LoginTest.TestTC_001"/><-->
+        <class name="com.LoginTest.RegisterAE"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
