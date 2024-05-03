@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-24T09:23:10 IST" name="Suite" finished-at="2024-04-24T09:23:20 IST" duration-ms="9702">
+  <suite started-at="2024-05-03T14:34:52 IST" name="RegisterUserSuite" finished-at="2024-05-03T14:35:16 IST" duration-ms="23964">
     <groups>
     </groups>
-    <test started-at="2024-04-24T09:23:10 IST" name="TestChrome" finished-at="2024-04-24T09:23:20 IST" duration-ms="9702">
-      <class name="com.LoginTest.TestTC_001">
-        <test-method is-config="true" signature="initilizationsetUp()[pri:0, instance:com.LoginTest.TestTC_001@74589991]" started-at="2024-04-24T09:23:09 IST" name="initilizationsetUp" finished-at="2024-04-24T09:23:10 IST" duration-ms="624" status="PASS">
+    <test started-at="2024-05-03T14:34:52 IST" name="RegisterUserTest" finished-at="2024-05-03T14:35:16 IST" duration-ms="23964">
+      <class name="com.LoginTest.Tc_RegisterUser_Reshma">
+        <test-method is-config="true" signature="initilizationsetUp()[pri:0, instance:com.LoginTest.Tc_RegisterUser_Reshma@6bb4dd34]" started-at="2024-05-03T14:34:51 IST" name="initilizationsetUp" finished-at="2024-05-03T14:34:52 IST" duration-ms="919" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilizationsetUp -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.LoginTest.TestTC_001@74589991]" started-at="2024-04-24T09:23:10 IST" name="setUp" finished-at="2024-04-24T09:23:13 IST" duration-ms="3167" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.LoginTest.Tc_RegisterUser_Reshma@6bb4dd34]" started-at="2024-05-03T14:34:52 IST" name="setUp" finished-at="2024-05-03T14:35:11 IST" duration-ms="18911" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,34 +22,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyTC_001()[pri:0, instance:com.LoginTest.TestTC_001@74589991]" started-at="2024-04-24T09:23:13 IST" name="verifyTC_001" finished-at="2024-04-24T09:23:14 IST" duration-ms="383" status="PASS">
+        <test-method signature="verifyTestCaseRegisterUser()[pri:0, instance:com.LoginTest.Tc_RegisterUser_Reshma@6bb4dd34]" started-at="2024-05-03T14:35:11 IST" name="verifyTestCaseRegisterUser" finished-at="2024-05-03T14:35:16 IST" duration-ms="5003" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyTC_001 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.LoginTest.TestTC_001@74589991]" started-at="2024-04-24T09:23:14 IST" name="tearDown" finished-at="2024-04-24T09:23:15 IST" duration-ms="873" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.LoginTest.TestTC_001@74589991]" started-at="2024-04-24T09:23:15 IST" name="setUp" finished-at="2024-04-24T09:23:18 IST" duration-ms="2438" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyTC_002()[pri:0, instance:com.LoginTest.TestTC_001@74589991]" started-at="2024-04-24T09:23:18 IST" name="verifyTC_002" finished-at="2024-04-24T09:23:18 IST" duration-ms="325" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTC_002 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.LoginTest.TestTC_001@74589991]" started-at="2024-04-24T09:23:19 IST" name="tearDown" finished-at="2024-04-24T09:23:20 IST" duration-ms="819" status="PASS">
+        </test-method> <!-- verifyTestCaseRegisterUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.LoginTest.Tc_RegisterUser_Reshma@6bb4dd34]" started-at="2024-05-03T14:35:16 IST" name="tearDown" finished-at="2024-05-03T14:35:16 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.LoginTest.TestTC_001 -->
-    </test> <!-- TestChrome -->
-  </suite> <!-- Suite -->
+      </class> <!-- com.LoginTest.Tc_RegisterUser_Reshma -->
+    </test> <!-- RegisterUserTest -->
+  </suite> <!-- RegisterUserSuite -->
 </testng-results>

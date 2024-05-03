@@ -25,19 +25,19 @@ public class TestListener extends BaseClass implements ITestListener {
 	public void onTestSuccess(ITestResult result) {
 		
 		Library.test.log(Status.PASS, "Test case succefully executed ..");
-		Library.test.addScreenCaptureFromBase64String(getScreenshot());
+		//Library.test.addScreenCaptureFromBase64String(getScreenshot());
 	}
 
 	public void onTestFailure(ITestResult result) {
 		
 		Library.test.log(Status.FAIL, "Test case Failed..");
-		Library.test.addScreenCaptureFromBase64String(getScreenshot());
+		//Library.test.addScreenCaptureFromBase64String(getScreenshot());
 	}
 
 	public void onTestSkipped(ITestResult result) {
 		
 		Library.test.log(Status.SKIP, "Test case Skipped...");
-		Library.test.addScreenCaptureFromBase64String(getScreenshot());
+		//Library.test.addScreenCaptureFromBase64String(getScreenshot());
 	}
 
 	public void onFinish(ITestContext context) {
@@ -45,10 +45,10 @@ public class TestListener extends BaseClass implements ITestListener {
 		extent.flush();
 	}
 	
-	public static String getScreenshot() {
+	/*public static String getScreenshot() {
 		
 		TakesScreenshot ts=(TakesScreenshot) driver;
 		return ts.getScreenshotAs(OutputType.BASE64);
-	}
+	}*/
 
 }
