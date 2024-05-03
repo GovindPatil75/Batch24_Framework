@@ -4,7 +4,8 @@
   <test thread-count="5" name="CrossBrowserTestChrome">
   <parameter name="BrowserName" value="Chrome"></parameter>
     <classes>
-      <class name="com.LoginTest.TestTC_001"/>
+     <class name="com.LoginTest.TestTC_001"/>
+      <class name="com.LoginTest.Register_Abhi.java"/>
     </classes>
   </test> <!-- CrossBrowserTest -->
   

@@ -7,7 +7,7 @@
 
     <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
     <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
-    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     <script type='text/javascript'>
@@ -21,8 +21,7 @@
      -->
   </head>
 
-  <body>
-    <div class="top-banner-root">
+  <body>    <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
@@ -51,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\Dell\eclipse-workspace\Batch24_Framework\MasterSuite.xml</span>
+                    <span>C:\Users\lenovo\Desktop\batch24github\Batch24_Framework\MasterSuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,6 +101,11 @@
                       <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
                     <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.LoginTest.Register_Abhi" class="method navigator-link" hash-for-method="Register">Register</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.LoginTest.TestTC_001" class="method navigator-link" hash-for-method="verifyTC_001">verifyTC_001</a> <!-- method navigator-link -->
@@ -127,6 +131,21 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">com.LoginTest.Register_Abhi</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Register">
+                  </a> <!-- Register -->
+                  <span class="method-name">Register</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">com.LoginTest.TestTC_001</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -149,7 +168,7 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Dell\eclipse-workspace\Batch24_Framework\MasterSuite.xml</span>
+            <span class="header-content">C:\Users\lenovo\Desktop\batch24github\Batch24_Framework\MasterSuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -163,6 +182,7 @@
     &lt;parameter name=&quot;BrowserName&quot; value=&quot;Chrome&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.LoginTest.TestTC_001&quot;/&gt;
+      &lt;class name=&quot;com.LoginTest.Register_Abhi&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- TestChrome --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -176,7 +196,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">TestChrome (1 class)</span>
+                <span class="test-name">TestChrome (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -202,20 +222,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyTC_001')
-data.setCell(0, 2, 'com.LoginTest.TestTC_001')
-data.setCell(0, 3, 383);
+data.setCell(0, 1, 'Register')
+data.setCell(0, 2, 'com.LoginTest.Register_Abhi')
+data.setCell(0, 3, 5035);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifyTC_002')
+data.setCell(1, 1, 'verifyTC_001')
 data.setCell(1, 2, 'com.LoginTest.TestTC_001')
-data.setCell(1, 3, 325);
+data.setCell(1, 3, 333);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyTC_002')
+data.setCell(2, 2, 'com.LoginTest.TestTC_001')
+data.setCell(2, 3, 217);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 708 ms</span>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -230,9 +254,16 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">1 ignored method</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.LoginTest.Register_Abhi</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initilizationsetUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Suite" class="panel">
@@ -248,27 +279,42 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(Chrome)</span>
-                <span class="method-start">639 ms</span>
+                <span class="method-start">1391 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyTC_001</span>
-                <span class="method-start">3818 ms</span>
+                <span class="method-start">8479 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">4797 ms</span>
+                <span class="method-start">9372 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(Chrome)</span>
-                <span class="method-start">5671 ms</span>
+                <span class="method-start">9835 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyTC_002</span>
-                <span class="method-start">8110 ms</span>
+                <span class="method-start">15675 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">9507 ms</span>
+                <span class="method-start">16390 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.LoginTest.Register_Abhi</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(Chrome)</span>
+                <span class="method-start">16766 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Register</span>
+                <span class="method-start">22089 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">27371 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

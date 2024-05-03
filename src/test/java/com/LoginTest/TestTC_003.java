@@ -18,9 +18,10 @@ public class TestTC_003 extends BaseClass{
 		String Password=excel.getStringTestData("LoginTest", 0, 1);
 		
 		
-		Library.custom_Sendkeys(login.getEmail(), Username ,"Email");
+	    Library.custom_Sendkeys(login.getEmail(), Username ,"Email");
 		Library.custom_Sendkeys(login.getPassword(), Password ,"Password");
 		Library.custom_Click(login.getBtnLogin() ,"Login Button");
+		
 		
 		
 		

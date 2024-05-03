@@ -37,6 +37,7 @@ public class BaseClass {
 			driver=new EdgeDriver();
 		}
 		driver.get(config.getBaseUrl());
+		//driver.get(config.getregisterurl());
 		driver.manage().window().maximize();
 		
 	}
