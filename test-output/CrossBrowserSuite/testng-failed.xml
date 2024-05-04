@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CrossBrowserSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="CrossBrowserTestChrome(failed)">
+    <parameter name="BrowserName" value="Chrome"/>
+    <classes>
+      <class name="com.LoginTest.TestTC_001">
+        <methods>
+          <include name="verifyTC_002"/>
+          <include name="initilizationsetUp"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyTC_001"/>
+        </methods>
+      </class> <!-- com.LoginTest.TestTC_001 -->
+    </classes>
+  </test> <!-- CrossBrowserTestChrome(failed) -->
+  <test thread-count="5" name="CrossBrowserTestEdge(failed)">
+    <parameter name="BrowserName" value="Edge"/>
+    <classes>
+      <class name="com.LoginTest.TestTC_001">
+        <methods>
+          <include name="verifyTC_002"/>
+          <include name="initilizationsetUp"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyTC_001"/>
+        </methods>
+      </class> <!-- com.LoginTest.TestTC_001 -->
+    </classes>
+  </test> <!-- CrossBrowserTestEdge(failed) -->
+</suite> <!-- Failed suite [CrossBrowserSuite] -->

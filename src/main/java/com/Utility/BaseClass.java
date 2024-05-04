@@ -44,7 +44,7 @@ public class BaseClass {
 	@AfterMethod
 	public void tearDown() {
 		
-		driver.quit();
+		//driver.quit();
 	}
 
 }
