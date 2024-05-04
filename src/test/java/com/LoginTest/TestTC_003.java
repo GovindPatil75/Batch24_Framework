@@ -1,8 +1,5 @@
 package com.LoginTest;
 
-<<<<<<< HEAD
-public class TestTC_003 {
-=======
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 
@@ -28,6 +25,6 @@ public class TestTC_003 extends BaseClass{
 		
 		
 	}
->>>>>>> f122ab634605c60ea80ae38cdef9426b087f701a
+
 
 }
