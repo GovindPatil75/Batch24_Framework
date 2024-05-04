@@ -7,8 +7,8 @@ import com.PageObject.LoginPom;
 import com.Utility.BaseClass;
 import com.Utility.Library;
 
-public class TestTC_003 extends BaseClass{
-
+public class TestTC007 extends BaseClass {
+	
 	@Test
 	public void verifyTC_004() {
 		
@@ -21,9 +21,6 @@ public class TestTC_003 extends BaseClass{
 		Library.custom_Sendkeys(login.getEmail(), Username ,"Email");
 		Library.custom_Sendkeys(login.getPassword(), Password ,"Password");
 		Library.custom_Click(login.getBtnLogin() ,"Login Button");
-		
-		
-		
-	}
 
+}
 }
