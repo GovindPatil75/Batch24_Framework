@@ -10,7 +10,7 @@ public class ExtentReportGenrator {
 	
 	public static ExtentReports getReports() {
 		
-		String ReportPath="C:\\Users\\Dell\\eclipse-workspace\\Batch24_Framework\\Reports\\index.html";
+		String ReportPath=System.getProperty("user.dir")+"\\Batch24_Framework\\Reports\\index.html";
 		
 		ExtentSparkReporter reporter=new ExtentSparkReporter(ReportPath);
 		reporter.config().setDocumentTitle("Automation Test Report");
