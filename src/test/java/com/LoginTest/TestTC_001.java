@@ -19,11 +19,14 @@ public class TestTC_001 extends BaseClass{
 		String Password=excel.getStringTestData("LoginTest", 0, 1);
 		
 		
+		
+		
+		Library.getExplicitWait(driver, 5, login.getEmail());
+		Library.getExplicitWait(driver, 7, login.getPassword());
+		
 		Library.custom_Sendkeys(login.getEmail(), Username ,"Email");
 		Library.custom_Sendkeys(login.getPassword(), Password ,"Password");
 		Library.custom_Click(login.getBtnLogin() ,"Login Button");
-		
-		
 		
 	}
 
