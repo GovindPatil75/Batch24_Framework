@@ -4,12 +4,10 @@
 <listeners>
 <listener class-name="com.Utility.TestListener"></listener>
 </listeners>
-  <test thread-count="5" name="TestChrome">
-  <parameter name="BrowserName" value="Chrome"></parameter>
+  <test thread-count="5" name="Test">
+   <parameter name="BrowserName" value="chrome"></parameter>
     <classes>
-      <class name="com.LoginTest.TestTC_001"/>
-         <class name="com.LoginTest.Register_Abhi"/>
- 
+      <class name="com.LoginTest.Register_Abhi"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

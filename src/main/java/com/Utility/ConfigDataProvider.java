@@ -25,4 +25,9 @@ public class ConfigDataProvider {
 		return pro.getProperty("BrowserName");
 	}
 	
+	public String getregisterurl() {
+		
+		return pro.getProperty("registerurl");
+	}
+	
 }
